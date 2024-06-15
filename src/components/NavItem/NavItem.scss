@@ -1,0 +1,33 @@
+@import "../../variables.scss";
+
+.nav-item {
+  display: flex;
+  margin-bottom: 40px;
+  color: $grey-color;
+  padding: 12px 8px 13px 11px;
+  border-radius: 10px;
+  &__logo {
+    margin-right: 15px;
+    width: 24px;
+    height: 24px;
+  }
+  &__logo img {
+    width: 24px;
+    height: 24px;
+  }
+  &__wrapper {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+  }
+}
+.active {
+  background-color: rgb(70, 12, 228);
+  color: white;
+}
+.active:hover {
+  background-color: rgb(70, 12, 228);
+}
+.nav-item:hover {
+  background-color: lightgray;
+}

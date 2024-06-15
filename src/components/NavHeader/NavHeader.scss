@@ -1,0 +1,21 @@
+@import "../../variables.scss";
+
+.nav {
+  margin-bottom: 64px;
+  font-size: 26px;
+  &__version {
+    color: $version-color;
+    font-size: 10px;
+  }
+  &__text-logo {
+    font-size: 26px;
+    margin-right: 4px;
+  }
+  &__logo-svg {
+    margin-right: 8px;
+  }
+  &__logo {
+    display: flex;
+    text-align: center;
+  }
+}
