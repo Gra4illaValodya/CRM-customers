@@ -1,0 +1,40 @@
+@import "../../variables.scss";
+.customersList {
+  background-color: white;
+  width: 70vw;
+  padding: 30px 44px 41px 38px;
+
+  &__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  &__title-wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+  &__title {
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 7px;
+  }
+  &__sub-title {
+    color: #16c098;
+    font-size: 14px;
+  }
+  &__search-input {
+    padding: 10px 10px 10px 25px;
+    background-color: rgb(246, 246, 255);
+    color: $customers-grey-text;
+  }
+  &__search {
+    position: relative;
+  }
+  &__search-icon {
+    position: absolute;
+    left: 5%;
+    top: 30%;
+    width: 14px;
+    height: 14px;
+  }
+}

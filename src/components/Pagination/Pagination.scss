@@ -1,0 +1,12 @@
+@import "../../variables.scss";
+.pagination {
+  display: flex;
+  justify-content: space-around;
+  &__data {
+    color: $customers-grey-text;
+  }
+}
+
+.s {
+  margin: 5px;
+}
